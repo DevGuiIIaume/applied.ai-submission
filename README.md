@@ -3,7 +3,7 @@
 Welcome to my dates.py program!
 
 #### Usage
-To run my program simply run: *python3 dates.py*
+To run my program, type: *python3 dates.py*
 
 #### Overview of solution
 This programs gets user input from stdin, verifies the validity of the input, and calculates the difference between two dates
@@ -20,4 +20,4 @@ I have written extensive testcases to ensure the correctness of my program
 - I generated all dates from 0001-01-01 to 9999-12-31 and checked that my algorithm to calculate the julian day number was correct
 - I also generated 1M random date pairs and checked that my program matched with the output of datetime, a python library
 
-To run my testcases and to generate a code coverage html report, simply run: *pytest --cov=dates --cov-report=html*
+To run my testcases and to generate a code coverage html report, type: *pytest --cov=dates --cov-report=html*
