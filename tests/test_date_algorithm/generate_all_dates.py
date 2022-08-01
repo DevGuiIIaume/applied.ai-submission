@@ -1,3 +1,5 @@
+"""Generate all dates from 0001-01-01 to 9999-12-31"""
+
 from datetime import timedelta, date
 
 def daterange(start_date, end_date):
