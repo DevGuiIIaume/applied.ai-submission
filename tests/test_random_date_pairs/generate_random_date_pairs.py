@@ -1,8 +1,10 @@
+"""Generate 1M random date pairs and write the result to a txt file"""
+
 from datetime import date
 import random
 
 ls = []
-with open("check_date_algorithm.txt", "r") as file:
+with open("./test_date_algorithm/check_date_algorithm.txt", "r") as file:
     for date in file:
         ls.append(date)
 
