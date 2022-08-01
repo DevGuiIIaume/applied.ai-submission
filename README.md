@@ -20,4 +20,4 @@ I have written extensive testcases to ensure the correctness of my program
 - I generated all dates from 0001-01-01 to 9999-12-31 and checked that my algorithm to calculate the Julian day number was correct
 - I also generated 1M random date pairs and checked that my program matched with the output of datetime, a python library
 
-To run my testcases and to generate a code coverage html report, type: *pytest --cov=dates --cov-report=html*
+To run my testcases, type: *pytest dates_test.py* 
